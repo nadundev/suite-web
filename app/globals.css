@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-dark-blue: 23, 35, 57;
+  --color-dark-gray: 73, 86, 109;
+  --color-off-white: 243, 237, 231;
+  --color-bg-white: 250, 248, 246;
+  --color-purple: 160, 96, 255;
+  --color-pink: 203, 48, 227;
+  --color-orange: 255, 168, 78;
+}
+
+body {
+  color: rgb(var(--color-dark-blue));
+  background-color: rgb(var(--color-bg-white));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
